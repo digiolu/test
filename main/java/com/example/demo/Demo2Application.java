@@ -9,5 +9,7 @@ public class Demo2Application {
     public static void main(String[] args) {
         SpringApplication.run(Demo2Application.class, args);
     }
-
-}
+        public static int sum (int a, int b){
+            return a + b;
+        }
+    }
